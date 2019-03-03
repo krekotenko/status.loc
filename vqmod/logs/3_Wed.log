@@ -1,0 +1,48 @@
+---------- Date: 2017-12-27 16:05:24 ~ IP : 2a02:a310:13f:5280:648a:c4e8:324c:42fa ----------
+REQUEST URI : /zapchasti-dlja-stiralnyh-mashin/rebra-barabana
+MOD DETAILS:
+   modFile   : /home/servic49/status-service.com.ua/shop/vqmod/xml/news.xml
+   id        : Новости
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+MOD DETAILS:
+   modFile   : /home/servic49/status-service.com.ua/shop/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-12-27 16:06:47 ~ IP : 2a02:a310:13f:5280:648a:c4e8:324c:42fa ----------
+REQUEST URI : /index.php?route=product/category&path=25_253
+MOD DETAILS:
+   modFile   : /home/servic49/status-service.com.ua/shop/vqmod/xml/news.xml
+   id        : Новости
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+MOD DETAILS:
+   modFile   : /home/servic49/status-service.com.ua/shop/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+----------------------------------------------------------------------
+
+

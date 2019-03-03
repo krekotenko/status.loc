@@ -1,0 +1,192 @@
+# 1.To use URL Alias you need to be running apache with mod_rewrite enabled. 
+
+# 2. In your opencart directory rename htaccess.txt to .htaccess.
+
+# For any support issues please visit: http://www.opencart.com
+
+# Options +FollowSymlinks
+
+# Prevent Directoy listing 
+Options -Indexes
+
+# Prevent Direct Access to files
+<FilesMatch "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+ Order deny,allow
+ Deny from all
+</FilesMatch>
+
+# SEO URL Settings
+RewriteEngine On
+# If your opencart installation does not run on the main web folder make sure you folder it does run in ie. / becomes /shop/ 
+
+RewriteBase /
+RewriteRule ^sitemap.xml$ index.php?route=feed/google_sitemap [L]
+RewriteRule ^googlebase.xml$ index.php?route=feed/google_base [L]
+RewriteRule ^system/download/(.*) /index.php?route=error/not_found [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
+RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\ HTTP/
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteCond %{QUERY_STRING} ^route=common/home$
+RewriteCond %{REQUEST_METHOD} !^POST$
+RewriteRule ^index\.php$ http://%{HTTP_HOST}? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_251$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/antivibracionnye-podstavki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_253$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/bak-dlya-stiralnoj-mashiny? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_237$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/blok-podshipnikov? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_193$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/opory-dlya-barabana? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_245$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/patrubki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_254$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/pruzhiny-baka? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=25_255$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/filtra? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=256$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/sredstva-po-uxodu-za-bytovoj-texnikoj? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=257$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/sredstva-po-uxodu-za-domom? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=239$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-stiralnyh-mashin/zapchasti-dlya-stiralnyx-mashin-poluavtomatov? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_207$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/gayki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_211$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/datchik-temperatury? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_212$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/perehodniki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_210$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/plata-upravleniya? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_209$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/pulty? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=18_208$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-kondicionerov/shtucera? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_228$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/dvigateli-lg? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_196$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/dvigateli-phillips? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_227$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/dvigateli-samsung? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_195$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/dvigateli-thomas? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_197$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/dvigateli-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_261$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/derzhatel-meshka? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_244$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/meshki-dlya-pylesosov? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_238$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/filtry-dlya-pylesosov? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_252$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/shampun-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=194_250$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-pylesosov/shlangi-shetki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=20_224$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-holodilnikov/tajmery-ottaiki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_259$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/korpus-shneka-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_248$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/motory-myasorubki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_243$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/nozhi-myasorubki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_246$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/vtulka-shneka-myasorubki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_258$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/reshetki-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_260$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/tolkateli-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_247$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/shesterni-zelmer? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=201_249$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-k-mjasorubkam-kombainam/shneki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=202_222$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-jelektroplity-i-duhovki/perekluchateli-rezhimov? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=202_221$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-jelektroplity-i-duhovki/ten-duhovki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=204_213$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-posudomoechnyh-mashin/zamok-dveri? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=204_215$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-posudomoechnyh-mashin/motor-posudomoechnoy-mashiny? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=204_216$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-posudomoechnyh-mashin/nasos-posudomoechnoy-mashiny? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=204_205$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-posudomoechnyh-mashin/plata-upravleniya-posudomojki? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=204_214$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/zapchasti-dlja-posudomoechnyh-mashin/ten-posudomoechnoy-mashiny? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^route=product/category&path=241$
+RewriteRule ^index\.php$ https://shop.status-service.com.ua/freony? [R=301,L]
+
+### Additional Settings that may need to be enabled for some servers 
+### Uncomment the commands by removing the # sign in front of it.
+### If you get an "Internal Server Error 500" after enabling any of the following settings, restore the # as this means your host doesn't allow that.
+
+# 1. If your cart only allows you to add one item at a time, it is possible register_globals is on. This may work to disable it:
+# php_flag register_globals off
+
+# 2. If your cart has magic quotes enabled, This may work to disable it:
+# php_flag magic_quotes_gpc Off
+
+# 3. Set max upload file size. Most hosts will limit this and not allow it to be overridden but you can try
+# php_value upload_max_filesize 999M
+
+# 4. set max post size. uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value post_max_size 999M
+
+# 5. set max time script can take. uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value max_execution_time 200
+
+# 6. set max time for input to be recieved. Uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value max_input_time 200
+
+# 7. disable open_basedir limitations
+# php_admin_value open_basedir none
