@@ -93,6 +93,14 @@ class ModelCatalogProduct extends Model {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "product_related SET product_id = '" . (int)$related_id . "', related_id = '" . (int)$product_id . "'");
 			}
 		}
+		if (isset($data['product_similar'])) {
+			foreach ($data['product_similar'] as $similar_id) {
+				$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$product_id . "' AND similar_id = '" . (int)$similar_id . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "product_similar SET product_id = '" . (int)$product_id . "', similar_id = '" . (int)$similar_id . "'");
+				$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$similar_id . "' AND similar_id = '" . (int)$product_id . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "product_similar SET product_id = '" . (int)$similar_id . "', similar_id = '" . (int)$product_id . "'");
+			}
+		}
 
 		if (isset($data['product_reward'])) {
 			foreach ($data['product_reward'] as $customer_group_id => $product_reward) {
@@ -231,6 +239,9 @@ class ModelCatalogProduct extends Model {
 
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_related WHERE product_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_related WHERE related_id = '" . (int)$product_id . "'");
+		
+		$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$product_id . "'");
+		$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE similar_id = '" . (int)$product_id . "'");
 
 		if (isset($data['product_related'])) {
 			foreach ($data['product_related'] as $related_id) {
@@ -238,6 +249,15 @@ class ModelCatalogProduct extends Model {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "product_related SET product_id = '" . (int)$product_id . "', related_id = '" . (int)$related_id . "'");
 				$this->db->query("DELETE FROM " . DB_PREFIX . "product_related WHERE product_id = '" . (int)$related_id . "' AND related_id = '" . (int)$product_id . "'");
 				$this->db->query("INSERT INTO " . DB_PREFIX . "product_related SET product_id = '" . (int)$related_id . "', related_id = '" . (int)$product_id . "'");
+			}
+		}
+		
+		if (isset($data['product_similar'])) {
+			foreach ($data['product_similar'] as $similar_id) {
+				$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$product_id . "' AND similar_id = '" . (int)$similar_id . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "product_similar SET product_id = '" . (int)$product_id . "', similar_id = '" . (int)$similar_id . "'");
+				$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$similar_id . "' AND similar_id = '" . (int)$product_id . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "product_similar SET product_id = '" . (int)$similar_id . "', similar_id = '" . (int)$product_id . "'");
 			}
 		}
 
@@ -297,6 +317,7 @@ class ModelCatalogProduct extends Model {
 			$data['product_image'] = $this->getProductImages($product_id);
 			$data['product_option'] = $this->getProductOptions($product_id);
 			$data['product_related'] = $this->getProductRelated($product_id);
+			$data['product_similar'] = $this->getProductSimilar($product_id);
 			$data['product_reward'] = $this->getProductRewards($product_id);
 			$data['product_special'] = $this->getProductSpecials($product_id);
 			$data['product_category'] = $this->getProductCategories($product_id);
@@ -322,6 +343,8 @@ class ModelCatalogProduct extends Model {
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_option_value WHERE product_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_related WHERE product_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_related WHERE related_id = '" . (int)$product_id . "'");
+		$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$product_id . "'");
+		$this->db->query("DELETE FROM " . DB_PREFIX . "product_similar WHERE similar_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_reward WHERE product_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_special WHERE product_id = '" . (int)$product_id . "'");
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_to_category WHERE product_id = '" . (int)$product_id . "'");
@@ -593,6 +616,19 @@ class ModelCatalogProduct extends Model {
 		}
 
 		return $product_related_data;
+	}
+	
+
+	public function getProductSimilar($product_id) {
+		$product_similar_data = array();
+
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_similar WHERE product_id = '" . (int)$product_id . "'");
+
+		foreach ($query->rows as $result) {
+			$product_similar_data[] = $result['similar_id'];
+		}
+
+		return $product_similar_data;
 	}
 
 	public function getRecurrings($product_id) {

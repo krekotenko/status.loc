@@ -357,3 +357,10 @@ admin\language\english\design\layout.php
 admin\language\russian\design\layout.php
 admin\view\template\design\layout_list.tpl
 admin\view\template\design\layout_form.tpl
+catalog\controller\product\category.php
+catalog\language\english\product\category.php
+catalog\language\russian\product\category.php
+catalog\controller\module\filter.php
+catalog\language\english\module\filter.php
+catalog\language\russian\module\filter.php
+catalog\view\theme\default\template\product\category.tpl

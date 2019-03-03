@@ -418,6 +418,19 @@
                   </div>
                 </div>
               </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-similar"><span data-toggle="tooltip" title="Похожие товары">Похожие товары</span></label>
+                <div class="col-sm-10">
+                  <input type="text" name="similar" value="" placeholder="Похожие товары" id="input-similar" class="form-control" />
+                  <div id="product-similar" class="well well-sm" style="height: 150px; overflow: auto;">
+                    <?php foreach ($product_similars as $product_similar) { ?>
+                    <div id="product-similar<?php echo $product_similar['product_id']; ?>"><i class="fa fa-minus-circle"></i> <?php echo $product_similar['name']; ?>
+                      <input type="hidden" name="product_similar[]" value="<?php echo $product_similar['product_id']; ?>" />
+                    </div>
+                    <?php } ?>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="tab-pane" id="tab-attribute">
               <div class="table-responsive">
@@ -1060,6 +1073,34 @@ $('input[name=\'related\']').autocomplete({
 });
 
 $('#product-related').delegate('.fa-minus-circle', 'click', function() {
+	$(this).parent().remove();
+});
+// Similar
+$('input[name=\'similar\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=catalog/product/autocomplete&token=<?php echo $token; ?>&filter_name=' +  encodeURIComponent(request),
+			dataType: 'json',			
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['name'],
+						value: item['product_id']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'similar\']').val('');
+		
+		$('#product-similar' + item['value']).remove();
+		
+		$('#product-similar').append('<div id="product-similar' + item['value'] + '"><i class="fa fa-minus-circle"></i> ' + item['label'] + '<input type="hidden" name="product_similar[]" value="' + item['value'] + '" /></div>');	
+	}	
+});
+
+$('#product-similar').delegate('.fa-minus-circle', 'click', function() {
 	$(this).parent().remove();
 });
 //--></script> 

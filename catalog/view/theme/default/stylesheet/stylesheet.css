@@ -554,7 +554,7 @@ footer h5 {
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 	overflow: hidden;
-	min-height: 465px;
+	min-height: 340px;
 }
 .product-thumb .image {
 	text-align: center;
@@ -583,7 +583,7 @@ footer h5 {
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
+	min-height: 200px;
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -715,6 +715,15 @@ h2.price {
 .thumbnails .image-additional {
 	float: left;
 	margin-left: 20px;
+}
+
+.custom-row.owl-carousel{
+	width: 101.1%;
+}
+
+.custom-row .owl-wrapper-outer {
+
+	box-shadow: none;
 }
 
 /* fixed colum left + content + right*/
