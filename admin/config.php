@@ -1,31 +1,31 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://shop.status-service.com.ua/admin/');
-define('HTTP_CATALOG', 'https://shop.status-service.com.ua/');
+define('HTTP_SERVER', 'http://status.loc/admin/');
+define('HTTP_CATALOG', 'http://status.loc/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://shop.status-service.com.ua/admin/');
-define('HTTPS_CATALOG', 'https://shop.status-service.com.ua/');
+define('HTTPS_SERVER', 'http://status.loc/admin/');
+define('HTTPS_CATALOG', 'http://status.loc/');
 
 // DIR
-define('DIR_APPLICATION', '/home/servic49/status-service.com.ua/shop/admin/');
-define('DIR_SYSTEM', '/home/servic49/status-service.com.ua/shop/system/');
-define('DIR_LANGUAGE', '/home/servic49/status-service.com.ua/shop/admin/language/');
-define('DIR_TEMPLATE', '/home/servic49/status-service.com.ua/shop/admin/view/template/');
-define('DIR_CONFIG', '/home/servic49/status-service.com.ua/shop/system/config/');
-define('DIR_IMAGE', '/home/servic49/status-service.com.ua/shop/image/');
-define('DIR_CACHE', '/home/servic49/status-service.com.ua/shop/system/cache/');
-define('DIR_DOWNLOAD', '/home/servic49/status-service.com.ua/shop/system/download/');
-define('DIR_UPLOAD', '/home/servic49/status-service.com.ua/shop/system/upload/');
-define('DIR_LOGS', '/home/servic49/status-service.com.ua/shop/system/logs/');
-define('DIR_MODIFICATION', '/home/servic49/status-service.com.ua/shop/system/modification/');
-define('DIR_CATALOG', '/home/servic49/status-service.com.ua/shop/catalog/');
+define('DIR_APPLICATION', 'E:/OSPanel/domains/status.loc/admin/');
+define('DIR_SYSTEM', 'E:/OSPanel/domains/status.loc/system/');
+define('DIR_LANGUAGE', 'E:/OSPanel/domains/status.loc/admin/language/');
+define('DIR_TEMPLATE', 'E:/OSPanel/domains/status.loc/admin/view/template/');
+define('DIR_CONFIG', 'E:/OSPanel/domains/status.loc/system/config/');
+define('DIR_IMAGE', 'E:/OSPanel/domains/status.loc/image/');
+define('DIR_CACHE', 'E:/OSPanel/domains/status.loc/system/cache/');
+define('DIR_DOWNLOAD', 'E:/OSPanel/domains/status.loc/system/download/');
+define('DIR_UPLOAD', 'E:/OSPanel/domains/status.loc/system/upload/');
+define('DIR_LOGS', 'E:/OSPanel/domains/status.loc/system/logs/');
+define('DIR_MODIFICATION', 'E:/OSPanel/domains/status.loc/system/modification/');
+define('DIR_CATALOG', 'E:/OSPanel/domains/status.loc/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'servic49.mysql.ukraine.com.ua');
-define('DB_USERNAME', 'servic49_shop');
-define('DB_PASSWORD', '539to5yg');
-define('DB_DATABASE', 'servic49_shop');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'status_db');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');

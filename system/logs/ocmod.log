@@ -42153,3 +42153,2866 @@ Modification::refresh - Done ''
 Modification::refresh - Processing ''
 Modification::refresh - Done ''
 ----------------------------------------------------------------
+2019-03-03 12:07:31 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 12:10:01 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 12:10:43 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 12:40:36 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 12:45:36 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 12:46:38 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+2019-03-03 13:30:35 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+Modification::refresh - Processing 'Quick Checkout'
+Modification::refresh - Done 'Quick Checkout'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Новости'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'Статьи'
+Modification::refresh - SEARCH NOT FOUND (ABORTING MOD):
+  file name = 'E:/OSPanel/domains/status.loc/catalog/view/theme/default/template/common/footer.tpl'
+  search = '<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>'
+----------------------------------------------------------------
+Modification::refresh - Processing 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/action.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/controller.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/event.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/front.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/loader.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/model.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/engine/registry.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/affiliate.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazon.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/amazonus.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cache.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cart.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/cba.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/config.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/currency.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/customer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/db.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/document.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/ebay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/encryption.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/etsy.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/image.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/language.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/length.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/log.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/mail.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/pagination.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/request.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/response.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/session.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/tax.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/url.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/user.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/system/library/weight.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/feed.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/fraud.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/installer.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/modification.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/module.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/news.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/openbay.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/payment.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/posts.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/shipping.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\((?!modification\()([^)]+)~'
+Modification::refresh - SEARCH NOT FOUND (SKIPPED):
+  file name = 'E:/OSPanel/domains/status.loc/admin/controller/extension/total.php'
+  search = '~(require|include)(_once)?\(modification\(([^)]+)~'
+Modification::refresh - Done 'VQMOD CORE FOR OPENCART - DO NOT REMOVE'
+----------------------------------------------------------------
+MOD: Fast Order
+CODE: public function link($route, $args = '', $secure = false) {
+LINE: 27
+----------------------------------------------------------------
+MOD: Featured Plus
+FILE: admin/controller/module/featured.php
+CODE: if (isset($this->request->post['status']))
+LINE: 183
+FILE: admin/view/template/module/featured.tpl
+CODE: <div class="form-group">
+LINE: 70
+FILE: catalog/controller/module/featured.php
+CODE: $products =
+LINE: 38
+FILE: admin/language/english/module/featured.php
+CODE: <?php
+LINE: 6
+FILE: admin/language/russian/module/featured.php
+CODE: <?php
+LINE: 6
+----------------------------------------------------------------
+MOD: SeoPro for Opencart v2.x
+FILE: admin/controller/catalog/product.php
+CODE: $data['entry_recurring'] = $this->language->get('entry_recurring');
+LINE: 595
+CODE: $this->load->model('catalog/category');
+LINE: 1044
+REGEX: ~		\$this\-\>response\-\>setOutput\(json_encode\(\$json\)\);
+	\}
+~
+LINE: 1461
+FILE: admin/controller/setting/setting.php
+CODE: $data['entry_seo_url'] = $this->language->get('entry_seo_url');
+LINE: 153
+CODE: $data['help_seo_url'] = $this->language->get('help_seo_url');
+LINE: 219
+CODE: $data['config_seo_url'] = $this->config->get('config_seo_url');
+LINE: 1224
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_recurring']        = 'Recurring Profile';
+LINE: 81
+FILE: admin/language/russian/catalog/product.php
+CODE: $_['entry_recurring']
+LINE: 81
+FILE: admin/language/english/setting/setting.php
+CODE: $_['text_smtp']                        = 'SMTP';
+LINE: 22
+CODE: $_['entry_seo_url']                    = 'Use SEO URLs';
+LINE: 123
+CODE: $_['help_seo_url']
+LINE: 194
+FILE: admin/language/russian/setting/setting.php
+CODE: $_['text_smtp']
+LINE: 22
+CODE: $_['entry_seo_url']
+LINE: 127
+CODE: $_['help_seo_url']
+LINE: 201
+FILE: admin/model/catalog/category.php
+CODE: public function getTotalCategoriesByLayoutId($layout_id)
+LINE: 351
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_category'])
+LINE: 82
+CODE: if (isset($data['product_category']))
+LINE: 231
+CODE: return $product_layout_data;
+LINE: 602
+FILE: admin/model/openbay/openbay.php
+CODE: curl_setopt($curl, CURLOPT_RETURNTRANSFER, true)
+LINE: 1037
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <input type="hidden" name="manufacturer_id" value="<?php echo $manufacturer_id; ?>" />
+LINE: 348
+FILE: admin/view/template/setting/setting.tpl
+CODE: <input type="radio" name="config_seo_url" value="0" />
+LINE: 1421
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 27
+CODE: return $this->load->view('default/template/common/header.tpl', $data);
+LINE: 180
+FILE: catalog/controller/common/home.php
+CODE: $this->document->addLink(HTTP_SERVER, 'canonical');
+LINE: 8
+FILE: catalog/controller/common/language.php
+CODE: $data['redirect'] = $this->url->link('common/home');
+LINE: 28
+CODE: $data['redirect'] = $this->url->link($route, $url, $this->request->server['HTTPS']);
+LINE: 46
+REGEX: ~		if \(isset\(\$this\-\>request\-\>post\['redirect'\]\)\) \{
+			\$this\-\>response\-\>redirect\(\$this\-\>request\-\>post\['redirect'\]\);~
+LINE: 64
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+LINE: 32
+FILE: catalog/view/theme/default/template/common/language.tpl
+CODE: <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+LINE: 18
+REGEX: ~if \(isset\(\$this\-\>request\-\>get\['route'\]\)\) \{
+			\$this\-\>document\-\>addLink\(\$this\-\>url\-\>link\('common/home'\), 'canonical'\);
+		\}~
+LINE: 8
+CODE: $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+LINE: 46
+----------------------------------------------------------------
+MOD: Автозаполнение SEO url
+FILE: admin/view/template/common/footer.tpl
+CODE: </body>
+LINE: 44
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------
+Modification::refresh - Processing ''
+Modification::refresh - Done ''
+----------------------------------------------------------------

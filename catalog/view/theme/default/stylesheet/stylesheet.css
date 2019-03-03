@@ -169,7 +169,7 @@ div.required .control-label:before {
 /* cart */
 #cart {
     margin-bottom: -5px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 #cart > .btn {
 	font-size: 12px;

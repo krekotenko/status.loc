@@ -109,10 +109,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
         </div>
       </div>
-      <div class="col-sm-3">
-      <?php echo $cart; ?>
-      	<?php echo $search; ?>
-      </div>
+        <div class="col-sm-3">
+            <?php echo $cart; ?>
+        </div>
+        <div class="col-sm-8">
+            <?php echo $search; ?>
+        </div>
     </div>
   </div>
 </header>
