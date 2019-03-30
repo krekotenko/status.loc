@@ -335,6 +335,32 @@
               <?php } ?>
               <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $reviews; ?></a> / <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $text_write; ?></a></p>
             <hr>
+                <div class="delivery-block" id="deliveryBlock">
+              <div class="inform-block">
+                <div class="inform-title"><span class="product-icon delivery-icon"></span>Доставка</div>
+                <div class="inform-subtitle">По Украине</div>
+                <ul>
+                  <li>− Доставка в течении 1-2 суток </li>
+                  <li>− Самовывоз из пункта службы доставки</li>
+                  <li>− Курьером по адресу</li>
+                </ul>
+              </div>
+              <div class="inform-block">
+                <div class="inform-title"><span class="product-icon pay-icon"></span>Оплата</div>
+                <ul>
+                  <li>− Наличными, Безналичными</li>
+                </ul>
+              </div>
+              <div class="inform-block">
+                <div class="inform-title"><span class="product-icon warranty-icon"></span>Гарантия</div>
+                <ul>
+                  <li>− Обмену и возврата не подлежит</li>
+                  <li>− Абсолютно новый товар</li>
+                  <li>− Гарантия качества 100%</li>
+                </ul>
+              </div>
+            </div>
+            <hr>
             <!-- AddThis Button BEGIN -->
             <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script>
@@ -452,6 +478,23 @@
               loop: true
           });
           --></script>
+      <?php } ?>
+      <?php if ($seo_rand) { ?>
+      <h3>Доставка любых запчастей в Украине</h3>
+      <div class="row">
+          <?php foreach ($seo_rand as $key => $link) { ?>
+            <?php if ($key == 0) { ?>
+                <div class="col-md-6">
+            <?php } ?>
+            <?php if ($key % 5 == 0 && $key != 0 ) { ?>
+                </div><div class="col-md-6">
+            <?php } ?>
+            <a style='display:block' href="<?php echo $link['href']; ?>"><?php echo $link['name']; ?></a>
+             <?php if ($key == count($seo_rand) -1 ) { ?>
+                  </div>
+             <?php } ?>
+          <?php } ?>
+      </div>
       <?php } ?>
       <?php if ($tags) { ?>
       <p><?php echo $text_tags; ?>

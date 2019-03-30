@@ -717,15 +717,47 @@ h2.price {
 	margin-left: 20px;
 }
 
-.custom-row.owl-carousel{
-	width: 101.1%;
-}
-
 .custom-row .owl-wrapper-outer {
 
 	box-shadow: none;
+	width: 101.2% !important;
 }
 
+.inform-block ul {
+	list-style: none;
+	padding-left: 0;
+	font-size: 13px !important;;
+}
+
+.inform-title {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #3D3D3D;
+}
+.inform-subtitle {
+	font-weight: bold;
+	color: #229ac8;
+}
+
+.product-icon.delivery-icon {
+	background: url(/catalog/view/theme/default/image/sprite.png) 0px -1523px no-repeat;
+}
+
+.product-icon.pay-icon {
+	background: url(/catalog/view/theme/default/image/sprite.png) -26px -1523px no-repeat;
+}
+
+.product-icon.warranty-icon {
+	background: url(/catalog/view/theme/default/image/sprite.png) -56px -1523px no-repeat;
+}
+
+.product-icon {
+	width: 27px;
+	height: 23px;
+	display: inline-block;
+	vertical-align: middle;
+}
 /* fixed colum left + content + right*/
 @media (min-width: 768px) {
     #column-left  .product-layout .col-md-3 {
@@ -844,8 +876,7 @@ background: none repeat scroll 0% 0% #FFFFFF;
 }.kac-sm-payback{
 background: none repeat scroll 0% 0% #00349A;
 }.kac-sm-instagram{
-
-background: none repeat scroll 0% 0% #ded1c1;
+                background: none repeat scroll 0% 0% #ded1c1;
 
 }
 @media screen and (max-width:640px){ .kac-sm-panel{display:none;} }

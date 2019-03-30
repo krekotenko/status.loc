@@ -425,6 +425,17 @@ class ControllerProductProduct extends Controller {
 					$rating = false;
 				}
 
+				$url = '';
+                $categories = $this->model_catalog_product->getCategories($result['product_id']);
+                if($categories){
+                    $categories_info = $this->model_catalog_category->getCategory($categories[0]['category_id']);
+                    if ($categories_info['parent_id'] != 0) {
+                        $url = $this->url->link('product/category', 'path=' .$categories_info['parent_id']. '_' . $categories_info['category_id']).'?product_id='.$result['product_id'];
+                    } else {
+                        $url = $this->url->link('product/category', 'path=' .$categories_info['category_id']).'?product_id='.$result['product_id'];
+                    }
+                }
+
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
@@ -435,7 +446,7 @@ class ControllerProductProduct extends Controller {
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $rating,
-					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+                    'href'        => $url
 				);
 			}
 
@@ -474,6 +485,17 @@ class ControllerProductProduct extends Controller {
 					$rating = false;
 				}
 
+                $url = '';
+                $categories = $this->model_catalog_product->getCategories($result['product_id']);
+                if($categories){
+                    $categories_info = $this->model_catalog_category->getCategory($categories[0]['category_id']);
+                    if ($categories_info['parent_id'] != 0) {
+                        $url = $this->url->link('product/category', 'path=' .$categories_info['parent_id']. '_' . $categories_info['category_id']).'?product_id='.$result['product_id'];
+                    } else {
+                        $url = $this->url->link('product/category', 'path=' .$categories_info['category_id']).'?product_id='.$result['product_id'];
+                    }
+                }
+
 				$data['products_similar'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
@@ -484,9 +506,98 @@ class ControllerProductProduct extends Controller {
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $rating,
-					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+                    'href'        => $url
 				);
 			}
+
+			//Seo pages
+            $seo = array(
+                'harkov' =>                'в Харькове',
+                'odessa' =>                'в Одессе',
+                'dnepr' =>                 'в Днепре',
+                'zaporozhie' =>            'в Запорожье',
+                'lvov' =>                  'во Львове',
+                'krivoy-rog' =>            'в Кривом Роге',
+                'nikolaev' =>              'в Николаеве',
+                'mariupol' =>              'в Мариуполе',
+                'vinnica' =>               'в Виннице',
+                'herson' =>                'в Херсоне',
+                'poltava' =>               'в Полтаве',
+                'chernigov' =>             'в Чернигове',
+                'cherkassy' =>             'в Черкассах',
+                'hmelnickiy' =>            'в Хмельницком',
+                'zhitomir' =>              'в Житомире',
+                'chernovcy' =>             'в Черновцах',
+                'sumy' =>                  'в Сумах',
+                'rovno' =>                 'в Ровно',
+                'kamenskoe' =>             'в Каменском',
+                'ivano-frankovsk' =>       'в Ивано-Франковске',
+                'kropivnickiy' =>          'в Кропивницком',
+                'kremenchug' =>            'в Кременчуге',
+                'ternopol' =>              'в Тернополе',
+                'luck' =>                  'в Луцке',
+                'belaya-cerkov' =>         'в Белой Церкви',
+                'kramatorsk' =>            'в Краматорске',
+                'melitopol' =>             'в Мелитополе',
+                'uzhgorod' =>              'в Ужгороде',
+                'nikopol' =>               'в Никополе',
+                'berdyansk' =>             'в Бердянске',
+                'pavlograd' =>             'в Павлограде',
+                'brovary' =>               'в Броварах',
+                'kamenec-podolskiy' =>     'в Каменец-Подольском',
+                'aleksandriya' =>          'в Александрие',
+                'berdichev' =>             'в Бердичеве',
+                'borispol' =>              'в Борисполе',
+                'verhnedneprovsk' =>       'в Верхнеднепровске',
+                'izmail' =>                'в Измаиле',
+                'kanev' =>                 'в Каневе'
+            );
+            $results = $this->model_catalog_category->getCategories(0);
+            $rand = array();
+
+            $results = $this->model_catalog_category->getCategories(0);
+            $rand = array();
+
+            foreach ($results as $category) {
+                $children = $this->model_catalog_category->getCategories($category['category_id']);
+                if (count($children) > 0) {
+                    foreach ($children as $child) {
+
+                        $hrf = $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id']);
+
+                        $chk = stripos($hrf, "zapchasti-dlja-stiralnyh-mashin");
+                        if ($chk !== false) {
+                            $child['name'] = $child['name'] . " для стиральной машины";
+                        }
+
+                        $rand[] = array(
+                            'name' => $child['name'],
+                            'href' => $hrf
+                        );
+                    }
+                }
+
+                $rand[] = array(
+                    'name' => $category['name'],
+                    'href' => $this->url->link('product/category', 'path=' . $category['category_id'])
+                );
+            }
+            $i=0;
+            while($i<10){
+                $rand_keys = array_rand($seo, 2);
+                $name_rand_seo = $seo[$rand_keys[0]];
+                $rnd = rand(0,count($rand));
+                $rnd_rand = $rand[$rnd];
+                $urd = explode("/",$rnd_rand['href']);
+                $buff = $urd[3];
+                $urd[3]=$buff."_".$rand_keys[0];
+
+                $rnd_rand['href'] = implode("/",$urd);
+                $rnd_rand['name'] = $rnd_rand['name']." ".$name_rand_seo;
+
+                $data['seo_rand'][] = $rnd_rand;
+                $i++;
+            }
 
 			$data['tags'] = array();
 
