@@ -758,6 +758,15 @@ h2.price {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+/*statuses icon*/
+.status_icon {
+	width: 19px;
+	height: 19px;
+	margin-right: 6px;
+	float: left;
+}
+
 /* fixed colum left + content + right*/
 @media (min-width: 768px) {
     #column-left  .product-layout .col-md-3 {

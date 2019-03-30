@@ -470,6 +470,18 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
+
+                if ($result['quantity'] <= 0) {
+                   $stock = $result['stock_status'];
+                   $stock_status_id = $result['stock_status_id'];
+                } elseif ($this->config->get('config_stock_display')) {
+                    $stock = $result['quantity'];
+                    $stock_status_id = 7;
+                } else {
+                    $stock_status_id = 7;
+                    $stock = $this->language->get('text_instock');
+                }
+
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
@@ -480,7 +492,9 @@ class ControllerProductCategory extends Controller {
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $result['rating'],
-					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
+					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
+					'stock'      => $stock,
+					'stock_status_id'      => $stock_status_id
 				);
 			}
 

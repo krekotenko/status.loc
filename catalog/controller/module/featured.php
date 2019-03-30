@@ -58,6 +58,28 @@ class ControllerModuleFeatured extends Controller {
 						$rating = false;
 					}
 
+                    if ($product_info['quantity'] <= 0) {
+                        $stock = $product_info['stock_status'];
+                        $stock_status_id = $product_info['stock_status_id'];
+                    } elseif ($this->config->get('config_stock_display')) {
+                        $stock_status_id = 7;
+                        $stock = $product_info['quantity'];
+                    } else {
+                        $stock_status_id = 7;
+                        $stock = 'Есть в наличии';
+                    }
+
+                    $url = '';
+                    $categories = $this->model_catalog_product->getCategories($product_info['product_id']);
+                    if($categories){
+                        $categories_info = $this->model_catalog_category->getCategory($categories[0]['category_id']);
+                        if ($categories_info['parent_id'] != 0) {
+                            $url = $this->url->link('product/category', 'path=' .$categories_info['parent_id']. '_' . $categories_info['category_id']).'?product_id='.$product_info['product_id'];
+                        } else {
+                            $url = $this->url->link('product/category', 'path=' .$categories_info['category_id']).'?product_id='.$product_info['product_id'];
+                        }
+                    }
+
 					$data['products'][] = array(
 						'product_id'  => $product_info['product_id'],
 						'thumb'       => $image,
@@ -67,7 +89,9 @@ class ControllerModuleFeatured extends Controller {
 						'special'     => $special,
 						'tax'         => $tax,
 						'rating'      => $rating,
-						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
+						'href'        => $url,
+						'stock'        => $stock,
+                        'stock_status_id' => $stock_status_id
 					);
 				}
 			}
