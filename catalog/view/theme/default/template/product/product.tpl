@@ -73,11 +73,15 @@
             <div class="tab-pane" id="tab-models">
                 <div class="brend_block">
                     <div class="modelSearch">
-                        Введите модель для быстрого поиска: <input type="text" class="live-search-box" placeholder="search here" />
+                        Введите модель для быстрого поиска: <input type="text" class="live-search-box"/>
                     </div>
-                    <div class="modelList live-search-list" id="modelList9">
-                        <?php foreach ($tags as  $key => $tag) { ?>
-                            <div <?php if ($key > 9) {echo ' style="display: none;"';}?>> <?php echo $tag?></div>
+                    <div class="modelList live-search-list">
+                        <?php foreach ($tags as  $key => $tag) {?>
+                            <?php
+                            $model = [];
+                            $model = explode(' ',trim($tag))
+                            ?>
+                            <div <?php if ($key > 4) {echo ' style="display: none;"';}?>><?php echo isset($model[0]) ? trim($model[0]): ''?> <b><?php  echo isset($model[1]) ? trim($model[1]): '' ?></b></div>
                         <?php } ?>
                     </div>
                 </div>
@@ -865,7 +869,7 @@ $(document).ready(function() {
             var searchTerm = $(this).val().toLowerCase();
             var i = 0;
             $('.live-search-list div').each(function(){
-                if (($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) && i < 10) {
+                if (($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) && i < 5) {
                     $(this).show();
                     i++;
                 } else {

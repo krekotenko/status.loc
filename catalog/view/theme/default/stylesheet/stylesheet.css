@@ -770,9 +770,30 @@ h2.price {
 .modelSearch input {
 	padding: 2px;
 	border-radius: 4px;
-	border: 1px solid #1e88cc;
+	border: 1px solid #fbd232;
 	width: 200px;
 	margin: 0 10px;
+}
+.brend_block{
+	border: 2px solid #fbd232;
+	border-radius: 8px;
+	background: #fbd232;
+	font-size: 14px;
+}
+
+.modelSearch {
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	padding: 10px 50px;
+	margin-bottom: 25px;
+}
+
+
+.modelList {
+	max-width: 200px;
+	margin: 0 auto;
+	padding-left: 15px;
 }
 
 /* fixed colum left + content + right*/
