@@ -42,6 +42,7 @@
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
             <?php } ?>
+             <li><a href="#tab-models" data-toggle="tab">Модели (<?php echo count($tags); ?>)</a></li>
             <?php if ($review_status) { ?>
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
@@ -69,6 +70,18 @@
               </table>
             </div>
             <?php } ?>
+            <div class="tab-pane" id="tab-models">
+                <div class="brend_block">
+                    <div class="modelSearch">
+                        Введите модель для быстрого поиска: <input type="text" class="live-search-box" placeholder="search here" />
+                    </div>
+                    <div class="modelList live-search-list" id="modelList9">
+                        <?php foreach ($tags as  $key => $tag) { ?>
+                            <div <?php if ($key > 9) {echo ' style="display: none;"';}?>> <?php echo $tag?></div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
               <form class="form-horizontal" id="form-review">
@@ -401,7 +414,7 @@
               <div class="inform-block">
                 <div class="inform-title"><span class="product-icon warranty-icon"></span>Гарантия</div>
                 <ul>
-                  <li>− Обмену и возврата не подлежит</li>
+                  <li>− Обмену и возврату не подлежит</li>
                   <li>− Абсолютно новый товар</li>
                   <li>− Гарантия качества 100%</li>
                 </ul>
@@ -639,17 +652,17 @@
           <?php } ?>
       </div>
       <?php } ?>
-      <?php if ($tags) { ?>
-      <p><?php echo $text_tags; ?>
-        <?php for ($i = 0; $i < count($tags); $i++) { ?>
-        <?php if ($i < (count($tags) - 1)) { ?>
-        <a href="<?php echo $tags[$i]['href']; ?>"><?php echo $tags[$i]['tag']; ?></a>,
-        <?php } else { ?>
-        <a href="<?php echo $tags[$i]['href']; ?>"><?php echo $tags[$i]['tag']; ?></a>
-        <?php } ?>
-        <?php } ?>
+      <?php /*if ($tags) { */?><!--
+      <p><?php /*echo $text_tags; */?>
+        <?php /*for ($i = 0; $i < count($tags); $i++) { */?>
+        <?php /*if ($i < (count($tags) - 1)) { */?>
+        <a href="<?php /*echo $tags[$i]['href']; */?>"><?php /*echo $tags[$i]['tag']; */?></a>,
+        <?php /*} else { */?>
+        <a href="<?php /*echo $tags[$i]['href']; */?>"><?php /*echo $tags[$i]['tag']; */?></a>
+        <?php /*} */?>
+        <?php /*} */?>
       </p>
-      <?php } ?>
+      --><?php /*} */?>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
@@ -842,5 +855,24 @@ $(document).ready(function() {
 		}
 	});
 });
+
+    jQuery(document).ready(function($){
+
+        $('.live-search-list div').each(function(){
+            $(this).attr('data-search-term', $(this).text().toLowerCase());
+        });
+        $('.live-search-box').on('keyup', function(){
+            var searchTerm = $(this).val().toLowerCase();
+            var i = 0;
+            $('.live-search-list div').each(function(){
+                if (($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) && i < 10) {
+                    $(this).show();
+                    i++;
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+    });
 //--></script>
 <?php echo $footer; ?>

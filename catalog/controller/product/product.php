@@ -631,14 +631,7 @@ class ControllerProductProduct extends Controller {
 			$data['tags'] = array();
 
 			if ($product_info['tag']) {
-				$tags = explode(',', $product_info['tag']);
-
-				foreach ($tags as $tag) {
-					$data['tags'][] = array(
-						'tag'  => trim($tag),
-						'href' => $this->url->link('product/search', 'tag=' . trim($tag))
-					);
-				}
+                $data['tags'] = explode(',', $product_info['tag']);
 			}
 
 			$data['text_payment_recurring'] = $this->language->get('text_payment_recurring');

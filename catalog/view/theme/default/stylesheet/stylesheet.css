@@ -767,6 +767,14 @@ h2.price {
 	float: left;
 }
 
+.modelSearch input {
+	padding: 2px;
+	border-radius: 4px;
+	border: 1px solid #1e88cc;
+	width: 200px;
+	margin: 0 10px;
+}
+
 /* fixed colum left + content + right*/
 @media (min-width: 768px) {
     #column-left  .product-layout .col-md-3 {
