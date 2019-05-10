@@ -79,9 +79,9 @@
                         <?php foreach ($tags as  $key => $tag) {?>
                             <?php
                             $model = [];
-                            $model = explode(' ',trim($tag))
+                            $model = explode(' ',trim($tag), 2)
                             ?>
-                            <div <?php if ($key > 4) {echo ' style="display: none;"';}?>><?php echo isset($model[0]) ? trim($model[0]): ''?> <b><?php  echo isset($model[1]) ? trim($model[1]): '' ?></b></div>
+                            <div <?php if ($key > 9) {echo ' style="display: none;"';}?>><?php echo isset($model[0]) ? trim($model[0]): ''?> <b><?php  echo isset($model[1]) ? trim($model[1]): '' ?></b></div>
                         <?php } ?>
                     </div>
                 </div>
