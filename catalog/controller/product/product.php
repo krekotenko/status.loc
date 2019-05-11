@@ -631,7 +631,8 @@ class ControllerProductProduct extends Controller {
 			$data['tags'] = array();
 
 			if ($product_info['tag']) {
-                $data['tags'] = explode(',', $product_info['tag']);
+                $data['tags'] = explode('|', $product_info['tag']);
+                $data['tags_count'] = count(explode(',', $product_info['tag']))+2;
 			}
 
 			$data['text_payment_recurring'] = $this->language->get('text_payment_recurring');

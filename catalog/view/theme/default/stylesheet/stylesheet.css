@@ -771,13 +771,14 @@ h2.price {
 	padding: 2px;
 	border-radius: 4px;
 	border: 1px solid #fbd232;
-	width: 200px;
-	margin: 0 10px;
+	display: block;
+	margin : 0 auto;
 }
 .brend_block{
 	border-radius: 8px;
 	background: #fbd232;
 	font-size: 14px;
+	margin-bottom: 30px;
 }
 
 .modelSearch {

@@ -42,7 +42,7 @@
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
             <?php } ?>
-             <li><a href="#tab-models" data-toggle="tab">Модели (<?php echo count($tags); ?>)</a></li>
+             <li><a href="#tab-models" data-toggle="tab">Модели (<?php echo isset($tags_count) ? $tags_count : 0 ; ?>)</a></li>
             <?php if ($review_status) { ?>
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
@@ -71,19 +71,32 @@
             </div>
             <?php } ?>
             <div class="tab-pane" id="tab-models">
-                <div class="brend_block">
-                    <div class="modelSearch">
-                        Введите модель для быстрого поиска: <input type="text" class="live-search-box"/>
-                    </div>
-                    <div class="modelList live-search-list">
-                        <?php foreach ($tags as  $key => $tag) {?>
-                            <?php
-                            $models = explode(' ',trim($tag), 2)
-                            ?>
-                            <div <?php if ($key%2 != 0) {echo 'class="model-color"';}?>><span><?php echo isset($models[0]) ? trim($models[0]): ''?> <b><?php  echo isset($models[1]) ? trim($models[1]): '' ?></b></span></div>
-                        <?php } ?>
-                    </div>
-                </div>
+                <?php
+                    foreach ($tags as  $key2 => $brand) {
+                        $brand_array = explode(',',$brand);
+                    ?>
+                          <div class="brend_block">
+                                <div class="modelSearch">
+                                  <p>
+                                    <?php
+                                        $brand_name = explode(' ',trim($brand_array[0]), 2);
+                                        echo 'Марка'.'<b> '.$brand_name[0].'</b>'.' ('.count($brand_array).' шт.)'
+                                    ?>
+                                  </p>
+                                  Введите модель для быстрого поиска: <input type="text" class="live-search-box"/>
+                                </div>
+                                <div class="modelList live-search-list">
+                                  <?php
+                                   $brand_array = explode(',',$brand);
+                                  foreach ($brand_array as  $key => $tag) { ?>
+                                  <?php
+                                  $models = explode(' ',trim($tag), 2)
+                                  ?>
+                                  <div <?php if ($key%2 != 0) {echo 'class="model-color"';}?>><span><?php echo isset($models[0]) ? trim($models[0]): ''?> <b><?php  echo isset($models[1]) ? trim($models[1]): '' ?></b></span></div>
+                                  <?php } ?>
+                                </div>
+                          </div>
+                    <?php } ?>
             </div>
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
