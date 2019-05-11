@@ -78,10 +78,9 @@
                     <div class="modelList live-search-list">
                         <?php foreach ($tags as  $key => $tag) {?>
                             <?php
-                            $model = [];
-                            $model = explode(' ',trim($tag), 2)
+                            $models = explode(' ',trim($tag), 2)
                             ?>
-                            <div <?php if ($key > 4) {echo ' style="display: none;"';}?>><?php echo isset($model[0]) ? trim($model[0]): ''?> <b><?php  echo isset($model[1]) ? trim($model[1]): '' ?></b></div>
+                            <div <?php if ($key%2 != 0) {echo 'class="model-color"';}?>><span><?php echo isset($models[0]) ? trim($models[0]): ''?> <b><?php  echo isset($models[1]) ? trim($models[1]): '' ?></b></span></div>
                         <?php } ?>
                     </div>
                 </div>
@@ -867,11 +866,15 @@ $(document).ready(function() {
         });
         $('.live-search-box').on('keyup', function(){
             var searchTerm = $(this).val().toLowerCase();
-            var i = 0;
+            let i = 0;
             $('.live-search-list div').each(function(){
-                if (($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) && i < 5) {
-                    $(this).show();
+                if (($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length <= 1) && i < 10) {
                     i++;
+                    if (i % 2 !== 0) {
+                        $(this).removeClass('model-color').show();
+                    } else {
+                        $(this).addClass('model-color').show();
+                    }
                 } else {
                     $(this).hide();
                 }

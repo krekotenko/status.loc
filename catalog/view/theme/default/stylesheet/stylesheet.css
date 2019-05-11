@@ -775,7 +775,6 @@ h2.price {
 	margin: 0 10px;
 }
 .brend_block{
-	border: 2px solid #fbd232;
 	border-radius: 8px;
 	background: #fbd232;
 	font-size: 14px;
@@ -783,17 +782,22 @@ h2.price {
 
 .modelSearch {
 	text-align: center;
-	height: 40px;
 	width: 100%;
 	padding: 10px 50px;
-	margin-bottom: 25px;
 }
 
 
+.modelList span {
+	margin-left: 10px;
+}
 .modelList {
-	max-width: 200px;
-	margin: 0 auto;
-	padding-left: 15px;
+	max-height:220px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+
+.model-color {
+	background-color: #FFFA70;
 }
 
 /* fixed colum left + content + right*/
